@@ -4,7 +4,19 @@
 }
 
 body {
-    font-family: verdana, sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home {
