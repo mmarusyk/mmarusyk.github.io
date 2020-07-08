@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Merriweather', serif;
+    color: #112d4e;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    padding-top: 20px;
+    padding: 20px 0;
     font-size: 48px;
 }
 
@@ -29,7 +30,16 @@ p {
 }
 
 hr {
-    margin: 20px 0;
+    margin: 40px 0;
+}
+
+a {
+    color: #112d4e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3f72af;
 }
 
 .home {
@@ -58,26 +68,31 @@ hr {
 .information {
     background-color: #f9f7f7;
     text-align: center;
-    color: #112d4e;
     padding-top: 40px;
-}
-
-.profile {
-
 }
 
 .footer {
     background-color: #f9f7f7;
     text-align: center;
-    color: #112d4e;
-    padding-top: 40px;
+    padding-top: 80px;
+}
+
+.footer-link {
+    margin-left: 30px;
 }
 
 .item {
-    padding: 20px 80px;
+    padding: 20px 160px;
+    height: 250px;
     display: inline-block;
 }
 
+.item:hover {
+    border: solid 1px #3f72af;
+    padding: 19px 159px;
+}
+
 .item img {
+    padding-top: 40px;
     width: 128px;
 }
