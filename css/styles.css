@@ -6,6 +6,7 @@
 body {
     font-family: 'Merriweather', serif;
     color: #112d4e;
+    size: 200%;
 }
 
 h1 {
@@ -15,18 +16,17 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     padding: 20px 0;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 p {
     padding-top: 10px;
-    font-size: 18px;
 }
 
 hr {
@@ -36,6 +36,7 @@ hr {
 a {
     color: #112d4e;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -55,9 +56,9 @@ a:hover {
 }
 
 .home h1 {
-    padding-top: 20%;
+    padding-top: 15%;
     text-align: center;
-    font-size: 120px;
+    font-size: 8rem;
 }
 
 .home h2 {
