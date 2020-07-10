@@ -7,23 +7,21 @@ body {
     font-family: 'Merriweather', serif;
     color: #112d4e;
     size: 200%;
+    line-height: 2;
 }
 
 h1 {
     font-family: 'Sacramento', cursive;
-    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    line-height: 2;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    line-height: 2;
 }
 
 p {
@@ -71,6 +69,12 @@ a:hover {
     background-color: #f9f7f7;
     text-align: center;
     padding-top: 40px;
+}
+
+.profile p {
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .footer {
