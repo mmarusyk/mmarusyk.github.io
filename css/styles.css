@@ -17,11 +17,17 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
+    color: #3f72af;
+}
+
+.home h2 {
+    color: #f9f7f7;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
+    color: #3f72af;
 }
 
 p {
@@ -29,13 +35,17 @@ p {
 }
 
 hr {
-    margin: 40px 0;
+    margin: 50px auto;
+    border: none;
+    border-top: 4px dotted #dbe2ef;
+    width: 200px;
 }
 
 a {
     color: #112d4e;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 a:hover {
@@ -68,7 +78,7 @@ a:hover {
 .information {
     background-color: #f9f7f7;
     text-align: center;
-    padding-top: 40px;
+    padding: 60px;
 }
 
 .profile p {
@@ -78,27 +88,46 @@ a:hover {
 }
 
 .footer {
-    background-color: #f9f7f7;
+    background-color: #112d4e;
     text-align: center;
-    padding-top: 80px;
+    color: #f9f7f7;
+    padding: 40px;
 }
 
 .footer-link {
     margin-left: 30px;
+    color: #f9f7f7;
 }
 
 .item {
     padding: 20px 160px;
     height: 250px;
     display: inline-block;
+    transition: 0.6s;
 }
 
 .item:hover {
-    border: solid 1px #3f72af;
-    padding: 19px 159px;
+    opacity: 0.8;
+    background-color: #dbe2ef;
 }
 
 .item img {
     padding-top: 40px;
     width: 128px;
+}
+
+.btn {
+    background-color: #112d4e;
+    border-radius: 8px;
+    color: #f9f7f7;
+    font-weight: normal;
+    padding: 10px;
+    display: block;
+    margin: 40px auto 0;
+    width: 140px;
+}
+
+.btn:hover {
+    background-color: #3f72af;
+    color: #f9f7f7;
 }
