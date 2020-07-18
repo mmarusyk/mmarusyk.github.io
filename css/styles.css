@@ -78,7 +78,7 @@ a:hover {
 .information {
     background-color: #f9f7f7;
     text-align: center;
-    padding: 60px;
+    padding: 5%;
 }
 
 .profile p {
@@ -130,4 +130,28 @@ a:hover {
 .btn:hover {
     background-color: #3f72af;
     color: #f9f7f7;
+}
+
+@media (max-width: 575px) {
+    .home h1 {
+        font-size: 6rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .profile p {
+        width: 90%;
+    }
+
+    .item {
+        padding: 5px 80px;
+        height: 150px;
+    }
+
+    .item img {
+        padding-top: 10px;
+        width: 80px;
+    }
 }
