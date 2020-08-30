@@ -74,6 +74,22 @@ a:hover {
     text-align: center;
     font-weight: normal;
 }
+.new-features {
+    position: fixed;
+    right: 0;
+    background-image: url("../img/bookmark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: #112d4e;
+    font-size: 14px;
+}
+
+.new-features:hover {
+    opacity: 0.6;
+}
 
 .information {
     background-color: #f9f7f7;
