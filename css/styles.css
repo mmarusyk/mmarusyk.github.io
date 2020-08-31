@@ -97,6 +97,11 @@ a:hover {
     padding: 5%;
 }
 
+.my_photo {
+    width: 500px;
+    border-radius: 50%;
+}
+
 .profile p {
     text-align: justify;
     width: 70%;
