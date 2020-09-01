@@ -77,6 +77,7 @@ a:hover {
 .new-features {
     position: fixed;
     right: 0;
+    z-index: 1;
     background-image: url("../img/bookmark.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +99,7 @@ a:hover {
 }
 
 .my_photo {
-    width: 500px;
+    width: 400px;
     border-radius: 50%;
 }
 
@@ -162,6 +163,10 @@ a:hover {
         font-size: 2rem;
     }
 
+    .my_photo {
+        width: 80%;
+    }
+
     .profile p {
         width: 90%;
     }
@@ -169,6 +174,7 @@ a:hover {
     .item {
         padding: 5px 80px;
         height: 150px;
+        width: 150px;
     }
 
     .item img {
