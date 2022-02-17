@@ -4,182 +4,137 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
-    color: #112d4e;
-    size: 200%;
-    line-height: 2;
+  background-color: #F1F1F1;
+	color: #23120B;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
 }
 
 h1 {
-    font-family: 'Sacramento', cursive;
+	color: #21209c
+  font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    color: #3f72af;
+  color: #21209C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
 }
 
-.home h2 {
-    color: #f9f7f7;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: #3f72af;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+  font-weight: bold;
 }
 
 p {
-    padding-top: 10px;
+  margin-bottom: 0px;
 }
 
 hr {
-    margin: 50px auto;
-    border: none;
-    border-top: 4px dotted #dbe2ef;
-    width: 200px;
+	background-color: #F1F1F1;
+  border: none;
+  border-top: 6px dotted #FDB827;
+  margin: 5px auto 40px;
 }
 
 a {
-    color: #112d4e;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+  color: #23120B;
+	font-size: 1.2rem;
+  font-weight: bold;
+	padding: 10px 0;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
-    color: #3f72af;
+  color: #FDB827;
 }
 
-.home {
-    color: #f9f7f7;
-    height: 100vh;
+section {
+	padding-top: 80px;
 }
 
-.home img {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
+section h2 {
+	text-align: center;
 }
 
-.home h1 {
-    padding-top: 15%;
-    text-align: center;
-    font-size: 8rem;
+.contacts h2 {
+  text-align: left;
 }
 
-.home h2 {
-    text-align: center;
-    font-weight: normal;
-}
-.new-features {
-    position: fixed;
-    right: 0;
-    z-index: 1;
-    background-image: url("../img/bookmark.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    color: #112d4e;
-    font-size: 14px;
+.contacts ul {
+	list-style: none;
 }
 
-.new-features:hover {
-    opacity: 0.6;
+.contacts ul a {
+  font-size: 1.5rem;
 }
 
-.information {
-    background-color: #f9f7f7;
-    text-align: center;
-    padding: 5%;
-}
-
-.my_photo {
-    width: 400px;
-    border-radius: 50%;
-}
-
-.profile p {
-    text-align: justify;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.footer {
-    background-color: #112d4e;
-    text-align: center;
-    color: #f9f7f7;
-    padding: 40px;
-}
-
-.footer-link {
-    margin-left: 30px;
-    color: #f9f7f7;
-    font-size: 1.8rem;
-}
-
-.item {
-    padding: 20px 160px;
-    height: 250px;
-    display: inline-block;
-    transition: 0.6s;
-}
-
-.item:hover {
-    opacity: 0.8;
-    background-color: #dbe2ef;
-}
-
-.item img {
-    padding-top: 40px;
-    width: 128px;
+ul {
+	list-style: inside;
 }
 
 .btn {
-    background-color: #112d4e;
-    border-radius: 8px;
-    color: #f9f7f7;
-    font-weight: normal;
-    padding: 10px;
-    display: block;
-    margin: 40px auto 0;
-    width: 140px;
+  background-color: #23120B;
+  border-radius: 8px;
+  color: #F1F1F1;
+  font-weight: normal;
+  padding: 15px;
+  display: block;
+  margin: 40px auto 0;
+  width: 200px;
 }
 
 .btn:hover {
-    background-color: #3f72af;
-    color: #f9f7f7;
+  background-color: #FDB827;
+  color: #23120B;
 }
 
-@media (max-width: 575px) {
-    .home h1 {
-        font-size: 6rem;
-    }
+.about_me p {
+  padding: 20px 0 0 40px;
+}
 
-    h2{
-        font-size: 2rem;
-    }
+.photo {
+  padding: 0 80px;
+}
 
-    .my_photo {
-        width: 80%;
-    }
+.photo img {
+  border-radius: 50%;
+  width: 250px;
+}
 
-    .profile p {
-        width: 90%;
-    }
+.footer {
+  text-align: center;
+  padding: 160px 0 40px;
+}
 
-    .item {
-        padding: 5px 80px;
-        height: 150px;
-        width: 150px;
-    }
+.container {
+  padding-top: 80px;
+}
 
-    .item img {
-        padding-top: 10px;
-        width: 80px;
-    }
+.row {
+  padding: 20px 0;
+}
+
+@media (max-width: 992px) {
+  .about_me {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  section, .contacts h2 {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  .contacts ul {
+    padding-top: 60px;
+    text-align: center;
+  }
 }
