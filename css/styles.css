@@ -118,6 +118,10 @@ ul {
   padding: 20px 0;
 }
 
+.logo {
+  width: 100px;
+}
+
 @media (max-width: 992px) {
   .about_me {
     text-align: center;
